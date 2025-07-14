@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day
+    - cron: "40 3 * * 3"
   workflow_dispatch:
   watch:
     types: started
